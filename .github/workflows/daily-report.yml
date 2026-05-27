@@ -1,4 +1,4 @@
-name: Daily Report Email
+name: [WORKFLOW] Daily Report Email
 
 on:
   schedule:
@@ -39,13 +39,15 @@ jobs:
             paste -sd "," -)
         echo "ATTACHMENTS_LIST=$ATTACHMENTS" >> commit_report.txt
 
-    - name: Send Mail
+    - name: 发送邮件
       uses: dawidd6/action-send-mail@master
       with:
-        connection_url: ${{ secrets.MAIL_CONNECTION_URL }}
         subject: "${{ github.event.repository.name }} - ${{ env.CURRENT_DATETIME }} - REPORT"
-        to: godners@163.com,github@tianyue.ren
-        from: ${{ secrets.MAIL_SENDER_NAME }}
+        to: godners@163.com,github@godners.com        
         body: file://commit_report.txt
         attachments: ${{ env.ATTACHMENTS_LIST }}
-        
+        from: "Github - Godners <github@godners.com>"
+        username: "github@godners.com"
+        password: ${{ secrets.MAIL_PASSWORD }}
+        server_address: smtphk.qiye.aliyun.com
+        server_port: 465
