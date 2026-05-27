@@ -1,9 +1,5 @@
 # T/E2 Adjust Inbound (2026)
 
-## Abbreviation
-
-- 
-
 
 ## January
 
@@ -11,11 +7,11 @@
 
 | Date | Week | ANA | LET | TP | hcG | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
-| 2026-01-29 | 4 | 0 | 0 | 25 | 500 | Oschea Medium<br>=> Cavity | Normal |
+| 2026-01-29 | 4 | 0 | 0 | 25 | 500 | OSC[^2] Medium<br>=> CAV[^3] | Normal |
 | 2026-01-30 | 5 | 0 | 0 | 0 | 0 |  | SKO[^1] |
-| 2026-01-31 | 6 | 1 | 0 | 25 | 500 | Oschea Left<br>=> Spermatic Cord | Normal |
+| 2026-01-31 | 6 | 1 | 0 | 25 | 500 | OSC[^2]  Left<br>=> Spermatic Cord | Normal |
 
-[^1]: Skip Over
+
 
 </details>
 
@@ -27,8 +23,8 @@
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
 | 2026-02-01 | 7 | 0 | 0 | 0 | 0 |  |  |
 | 2026-02-02 | 1 | 0 | 0 | 0 | 0 |  |  |
-| 2026-02-03 | 2 | 1 | 0 | 50 | 500 | Oschea Right<br>=> Cavity | Obvious<br>Spillover |
-| 2026-02-04 | 3 | 1 | 0 | 50 | 500 | Oschea Medium<br>=> Cavity | Obvious<br>Spillover |
+| 2026-02-03 | 2 | 1 | 0 | 50 | 500 | OSC[^2]  Right<br>=> CAV[^3] | Obvious<br>Spillover |
+| 2026-02-04 | 3 | 1 | 0 | 50 | 500 | OSC[^2]  Medium<br>=> CAV[^3] | Obvious<br>Spillover |
 | 2026-02-05 | 4 | 2 | 0 | 50 | 500 | Periumbilical Left<br>=> Fattiness | Normal |
 | 2026-02-06 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-02-07 | 6 | 1 | 0 | 0 | 0 |  | Orally |
@@ -73,18 +69,18 @@
 | 2026-03-09 | 1 | 0 | 2.5 | 100 | 500 | Periumbilical Top Left<br>=> Fattiness<br>Massage 1 Minutes | Normal |
 | 2026-03-10 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-11 | 3 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-03-12 | 4 | 0 | 2.5 | 100 | 500 | Mons Pubis Bottom<br>=> Cavity<br>Massage 3 Minutes | Normal |
+| 2026-03-12 | 4 | 0 | 2.5 | 100 | 500 | Mons Pubis Bottom<br>=> CAV[^3]<br>Massage 3 Minutes | Normal |
 | 2026-03-13 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-14 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-15 | 7 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-03-16 | 1 | 0 | 2.5 | 100 | 500 | Mons Pubis Left<br>=> Cavity<br>Massage 3 Minutes | Normal |
+| 2026-03-16 | 1 | 0 | 2.5 | 100 | 500 | Mons Pubis Left<br>=> CAV[^3]<br>Massage 3 Minutes | Normal |
 | 2026-03-17 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-18 | 3 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-03-19 | 4 | 0 | 2.5 | 75 | 500 | Mons Pubis Right<br>=> Cavity<br>Massage 3 Minutes | Normal |
+| 2026-03-19 | 4 | 0 | 2.5 | 75 | 500 | Mons Pubis Right<br>=> CAV[^3]<br>Massage 3 Minutes | Normal |
 | 2026-03-20 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-21 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-22 | 7 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-03-23 | 1 | 0 | 2.5 | 100 | 500 | Mons Pubis Left<br>=> Cavity<br>Massage 3 Minutes | Normal |
+| 2026-03-23 | 1 | 0 | 2.5 | 100 | 500 | Mons Pubis Left<br>=> CAV[^3]<br>Massage 3 Minutes | Normal |
 | 2026-03-24 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-25 | 3 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-26 | 4 | 0 | 2.5 | 100 | 500 | Mons Pubis Right<br>=> Subcutaneous<br>Massage 3 Minutes | Normal |
@@ -102,8 +98,8 @@
 
 | Date | Week | ANA | LET | TP | hcG | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
-| 2026-04-01 | 3 | 1 | 0 | 0 | 1000 | Oschea Medium<br>=> Cavity | Normal |
-| 2026-04-02 | 4 | 0 | 2.5 | 100 | 500 | Oschea Medium<br>=> Cavity<br>Massage 1 Minutes | Obvious<br>Spillover |
+| 2026-04-01 | 3 | 1 | 0 | 0 | 1000 | OSC[^2]  Medium<br>=> CAV[^3] | Normal |
+| 2026-04-02 | 4 | 0 | 2.5 | 100 | 500 | OSC[^2]  Medium<br>=> CAV[^3]<br>Massage 1 Minutes | Obvious<br>Spillover |
 | 2026-04-03 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-04 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-05 | 7 | 1 | 0 | 0 | 0 |  | Orally |
@@ -114,10 +110,10 @@
 | 2026-04-10 | 5 | 0 | 2.5 | 100 | 1000 | Periumbilical Bottom<br>=> Fattiness<br>Massage 3 Minutes | Normal |
 | 2026-04-11 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-12 | 7 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-04-13 | 1 | 0 | 2.5 | 100 | 1000 | Oschea Right<br>=> Cavity<br>Massage 3 Minutes | Mild<br>Spillover |
+| 2026-04-13 | 1 | 0 | 2.5 | 100 | 1000 | OSC[^2]  Right<br>=> CAV[^3]<br>Massage 3 Minutes | Mild<br>Spillover |
 | 2026-04-14 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-15 | 3 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-04-16 | 4 | 0 | 5 | 75 | 1000 | Oschea Left<br>=> Cavity<br>Massage 1 Minutes | Mild<br>Spillover |
+| 2026-04-16 | 4 | 0 | 5 | 75 | 1000 | OSC[^2]  Left<br>=> CAV[^3]<br>Massage 1 Minutes | Mild<br>Spillover |
 | 2026-04-17 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-18 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-19 | 7 | 1 | 0 | 0 | 0 |  | Orally |
@@ -174,3 +170,9 @@
 | 2026-05-31 | 7 | | | | | | |
 
 </details>
+
+## Abbreviation
+
+- [^1]: SKO: Skip Over
+- [^2]: OSC: Oschea
+- [^3]: CAV: Cavity
