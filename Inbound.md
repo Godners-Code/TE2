@@ -2,12 +2,11 @@
 
 ## January
 
-<details>
-<summary>
+<details><summary>
 
 |  Total  | Execute |  Skips  | Injects | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] |
 |:-------:|:-------:|:-------:|:-------:|:--------:|:--------:|:-------:|:--------:|
-| 31 Days |  2 Days | 29 Days |  2 Days |   1 mg   |   0 mg   |  25 mg  |  500 IU :|
+| 31 Days |  2 Days | 29 Days |  2 Days |   1 mg   |   0 mg   |  25 mg  |  500 IU  |
 
 </summary>
 
@@ -21,8 +20,13 @@
 
 ## February
 
-<details>
+<details><summary>
 
+|  Total  | Execute |  Skips  | Injects | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] |
+|:-------:|:-------:|:-------:|:-------:|:--------:|:--------:|:-------:|:--------:|
+| 28 Days | 26 Days |  2 Days |  8 Days |  22 mg   | 17.5 mg  |  575 mg | 4000 IU  |
+
+</summary>
 | Date | Week | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
 | 2026-02-01 | 7 | 0 | 0 | 0 | 0 |  | SKO[^1] |
@@ -58,7 +62,11 @@
 
 ## March
 
-<details>
+<details><summary>
+
+|  Total  | Execute |  Skips  | Injects | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] |
+|:-------:|:-------:|:-------:|:-------:|:--------:|:--------:|:-------:|:--------:|
+| 31 Days | 31 Days |  0 Days |  9 Days |  22 mg   | 22.5 mg  |  875 mg | 4500 IU  |
 
 | Date | Week | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
@@ -98,7 +106,11 @@
 
 ## April
 
-<details>
+<details><summary>
+
+|  Total  | Execute |  Skips  | Injects | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] |
+|:-------:|:-------:|:-------:|:-------:|:--------:|:--------:|:-------:|:--------:|
+| 30 Days | 30 Days |  0 Days |  8 Days |  22 mg   |   25 mg  |  675 mg | 7000 IU  |
 
 | Date | Week | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
@@ -137,7 +149,11 @@
 
 ## May
 
-<details open>
+<details open><summary>
+
+|  Total  | Execute |  Skips  | Injects | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] |
+|:-------:|:-------:|:-------:|:-------:|:--------:|:--------:|:-------:|:--------:|
+| 31 Days |~27 Days | ~0 Days | ~2 Days |  ~20 mg  |  ~20 mg  | ~200 mg | ~1500 IU |
 
 | Date | Week | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
