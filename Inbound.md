@@ -3,8 +3,15 @@
 ## January
 
 <details>
+<summary>
 
-| Date | Week | ANA | LET | TP | hCG | Inject | Effect |
+|  Total  | Execute |  Skips  | Injects |
+|:-------:|:-------:|:-------:|:-------:|
+| 31 Days |  2 Days | 29 Days |  2 Days |
+
+</summary>
+
+| Date | Week | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
 | 2026-01-29 | 4 | 0 | 0 | 25 | 500 | OSC[^2]M[^14]=>CAV[^3] | NRM[^4] |
 | 2026-01-30 | 5 | 0 | 0 | 0 | 0 |  | SKO[^1] |
@@ -16,7 +23,7 @@
 
 <details>
 
-| Date | Week | ANA | LET | TP | hCG | Inject | Effect |
+| Date | Week | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
 | 2026-02-01 | 7 | 0 | 0 | 0 | 0 |  | SKO[^1] |
 | 2026-02-02 | 1 | 0 | 0 | 0 | 0 |  | SKO[^1] |
@@ -53,7 +60,7 @@
 
 <details>
 
-| Date | Week | ANA | LET | TP | hCG | Inject | Effect |
+| Date | Week | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
 | 2026-03-01 | 7 | 1 | 0 | 100 | 500 | PUM[^6]B[^17]L[^15]=>FAT[^10]<br>MSG[^11]3 MIN[^19] | NRM[^4] |
 | 2026-03-02 | 1 | 0 | 2.5 | 0 | 0 |  | ORL[^7] |
@@ -93,7 +100,7 @@
 
 <details>
 
-| Date | Week | ANA | LET | TP | hCG | Inject | Effect |
+| Date | Week | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
 | 2026-04-01 | 3 | 1 | 0 | 0 | 1000 | OSC[^2]M[^14]=>CAV[^3] | NRM[^4] |
 | 2026-04-02 | 4 | 0 | 2.5 | 100 | 500 | OSC[^2]M[^14]=>CAV[^3]<br>MSG[^11]1 MIN[^19] | OSP[^8] |
@@ -132,7 +139,7 @@
 
 <details open>
 
-| Date | Week | ANA | LET | TP | hCG | Inject | Effect |
+| Date | Week | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
 | 2026-05-01 | 5 | 1 | 0 | 0 | 0 |  | ORL[^7] |
 | 2026-05-02 | 6 | 1 | 0 | 0 | 0 |  | ORL[^7] |
@@ -189,3 +196,7 @@
 [^17]: B: Bottom  
 [^18]: T: Top  
 [^19]: I: Minute
+[^20]: ANA: Anastrozole
+[^21]: LET: Letrozole
+[^22]: TP: Testosterone Propionate
+[^23]: hCG: Human Chorionic Gonadotropin
