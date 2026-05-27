@@ -1,4 +1,4 @@
-name: [WORKFLOW] Daily Report Email
+name: "[WORKFLOW] Daily Report Email"
 
 on:
   schedule:
