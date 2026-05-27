@@ -29,15 +29,15 @@ jobs:
             --pretty=format:"Commit: %h - %an, %ar%nMessage: %s%n" \
             >> commit_report.txt
         
-        if [ ! -s commit_report.txt ] || [ $(wc -l < commit_report) -eq 3];
+        if [ ! -s commit_report.txt ] || [ $(wc -l < commit_report.txt) -eq 3];
         then
             echo "昨日无新的提交" >> commit_report.txt
         fi
 
         ATTACHMENTS=$(
-            find . -maxdepth 1 -name 'Inbound*.md' -o -name 'Outbound*.md' | 
-            paste -sd "," -)
-        echo "ATTACHMENTS_LIST=$ATTACHMENTS" >> commit_report.txt
+            find . -maxdepth 1 \(-name 'Inbound*.md' -o -name 'Outbound*.md' \) | 
+            sed 's|^\./||' | paste -sd "," -)
+        echo "ATTACHMENTS_LIST=$ATTACHMENTS" >> $GITHUB_ENV
 
     - name: 发送邮件
       uses: dawidd6/action-send-mail@master
