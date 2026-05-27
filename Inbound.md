@@ -5,9 +5,9 @@
 <details>
 <summary>
 
-|  Total  | Execute |  Skips  | Injects |
-|:-------:|:-------:|:-------:|:-------:|
-| 31 Days |  2 Days | 29 Days |  2 Days |
+|  Total  | Execute |  Skips  | Injects | ANA[^20] | LET[^21] | TP[^22] | hCG[^23] |
+|:-------:|:-------:|:-------:|:-------:|:--------:|:--------:|:-------:|:--------:|
+| 31 Days |  2 Days | 29 Days |  2 Days |   1 mg   |   0 mg   |  25 mg  |  500 IU :|
 
 </summary>
 
