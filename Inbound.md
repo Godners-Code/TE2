@@ -1,5 +1,10 @@
 # T/E2 Adjust Inbound (2026)
 
+## Abbreviation
+
+- 
+
+
 ## January
 
 <details>
@@ -7,8 +12,10 @@
 | Date | Week | ANA | LET | TP | hcG | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
 | 2026-01-29 | 4 | 0 | 0 | 25 | 500 | Oschea Medium<br>=> Cavity | Normal |
-| 2026-01-30 | 5 | 0 | 0 | 0 | 0 |  |  |
+| 2026-01-30 | 5 | 0 | 0 | 0 | 0 |  | SKO[^1] |
 | 2026-01-31 | 6 | 1 | 0 | 25 | 500 | Oschea Left<br>=> Spermatic Cord | Normal |
+
+[^1]: Skip Over
 
 </details>
 
