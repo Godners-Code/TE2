@@ -1,0 +1,28 @@
+name: "[WORKFLOW] Periodic Release"
+# .github/workflows/periodic-release.yml
+
+on:
+  schedule:
+    - cron: '00 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  periodic-release:
+    runs-on: ubuntu-latest   # self-hosted
+    steps:
+    # - name: "[STEP] Run Checkout Repository via Action"
+    #   if: inputs.Checkout == 'true'
+    #   id: Checkout
+    #   uses: actions/checkout@main
+    #   with:
+    #     fetch-depth: 0
+    #     token: ${{ inputs.GITHUB_TOKEN }}
+
+    - name: "[STEP] Run Auto Release via Action"
+      uses: godners/Shared_Actions/periodic-release@main
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        Checkout: true
