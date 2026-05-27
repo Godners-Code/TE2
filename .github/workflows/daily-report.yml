@@ -43,7 +43,7 @@ jobs:
       uses: dawidd6/action-send-mail@master
       with:
         subject: "${{ github.event.repository.name }} - ${{ env.CURRENT_DATETIME }} - REPORT"
-        to: godners@163.com,github@godners.com        
+        to: godners@163.com,mail@tianyue.ren
         body: file://commit_report.txt
         attachments: ${{ env.ATTACHMENTS_LIST }}
         from: Github - Godners <github@godners.com>
