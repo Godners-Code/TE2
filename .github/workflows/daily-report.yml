@@ -35,7 +35,7 @@ jobs:
         fi
 
         ATTACHMENTS=$(
-            find . -maxdepth 1 \(-name 'Inbound*.md' -o -name 'Outbound*.md' \) | 
+            find . -maxdepth 1 \( -name 'Inbound*.md' -o -name 'Outbound*.md' \) | 
             sed 's|^\./||' | paste -sd "," -)
         echo "ATTACHMENTS_LIST=$ATTACHMENTS" >> $GITHUB_ENV
 
