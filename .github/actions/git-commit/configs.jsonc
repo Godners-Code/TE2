@@ -1,8 +1,0 @@
-// [CONFIG] Git Commit
-// .github/actions/git-commit/configs.jsonc
-{
-    "default": {
-        "commit-prefix": "Auto Commit",
-        "patterns": ["**/*.md", "*.md"]
-    }
-}

@@ -1,0 +1,36 @@
+{
+  "default": true,
+  "MD009": { "enabled": true },
+  "MD013": {
+    "line_length": 120,
+    "tables": false,
+    "code_blocks": false
+  },
+  "MD022": { "enabled": true },
+  "MD024": { "siblings_only": true },
+  "MD029": { "enabled": false },
+  "MD031": { "enabled": true },
+  "MD032": { "enabled": true },  
+  "MD033": {
+    "allowed_elements": [
+      "details",
+      "summary",
+      "strong",
+      "mark"
+    ],
+    "table_allowed_elements": ["br"]
+  },
+    "MD044": {                   
+    "enabled": true,
+    "code_blocks": true,         
+    "html_elements": false,      
+    "names": [                   
+      "MMKB", "GitHub", "github.com",
+      "Markdown", "Actions", "Godners", 
+      "https://github.com/godners",
+      "github-actions", "actions/",
+      ".github/"
+    ]
+  },
+  "MD060": false
+}
