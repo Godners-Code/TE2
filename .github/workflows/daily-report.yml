@@ -46,8 +46,8 @@ jobs:
         to: godners@163.com,github@godners.com        
         body: file://commit_report.txt
         attachments: ${{ env.ATTACHMENTS_LIST }}
-        from: "Github - Godners <github@godners.com>"
-        username: "github@godners.com"
+        from: Github - Godners <github@godners.com>
+        username: github@godners.com
         password: ${{ secrets.MAIL_PASSWORD }}
         server_address: smtphk.qiye.aliyun.com
         server_port: 465
