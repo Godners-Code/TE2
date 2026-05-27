@@ -1,6 +1,6 @@
-# Outbound
+# TE/2 Outbound
 
-| Date | PGN<br>ng/mL | T<br>ng/dL | PRL<br>ng/mL | E2<br>pg/mL | COR<br>ug/dL | T/E2 |
+| Date | PGN[^1]<br>ng/mL | T[^2]<br>ng/dL | PRL[^3]<br>ng/mL | E2[^4]<br>pg/mL | COR[^5]<br>ug/dL | T/E2[^6]<br>Ratio |
 |:----------:|:----:|:------:|:----:|:-----:|:-----:|:------:|
 | 2024-03-24 | 0.65 | 422.90 | 7.51 | 18.48 | 10.95 | 22.88 |
 | 2025-03-23 | 0.59 | 363.16 | 4.53 | 32.00 | 13.13 | 11.35 |
@@ -10,3 +10,13 @@
 | 2026-01-24 | 0.57 | 461.56 | 3.32 | 36.33 | 08.69 | 12.70 |
 | 2026-02-26 | 1.95 | 3000++ | 4.67 | 21.04 | 09.06 | 142++ |
 | 2026-03-29 | 1.95 | 519.88 | 6.84 | 24.52 | 09.62 | 21.20 |
+| 2026-??-?? |  |  |  |  |  |  |
+
+## Abbreviation
+
+[^1]: PGN: Progesterone  
+[^2]: T: Testosterone  
+[^3]: PRL: Prolactin  
+[^4]: E2: Estradiol  
+[^5]: COR: Cortisol  
+[^6]: T/E2: Testosterone-to-Estradiol Ratio  

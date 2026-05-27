@@ -1,4 +1,4 @@
-# T/E2 Adjust Inbound (2026)
+# T/E2 Inbound - 2026
 
 ## January
 
@@ -218,8 +218,8 @@
 [^16]: R: Right  
 [^17]: B: Bottom  
 [^18]: T: Top  
-[^19]: I: Minute
-[^20]: ANA: Anastrozole
-[^21]: LET: Letrozole
-[^22]: TP: Testosterone Propionate
-[^23]: hCG: Human Chorionic Gonadotropin
+[^19]: I: Minute  
+[^20]: ANA: Anastrozole  
+[^21]: LET: Letrozole  
+[^22]: TP: Testosterone Propionate  
+[^23]: hCG: Human Chorionic Gonadotropin  
