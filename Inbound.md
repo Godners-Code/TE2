@@ -6,9 +6,9 @@
 
 | Date | Week | ANA | LET | TP | hcG | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
-| 2026-01-29 | 4 | 0 | 0 | 25 | 500 | OSC[^2] Medium<br>=> CAV[^3] | NRM[^4] |
+| 2026-01-29 | 4 | 0 | 0 | 25 | 500 | OSC[^2] M[^M] => CAV[^3] | NRM[^4] |
 | 2026-01-30 | 5 | 0 | 0 | 0 | 0 |  | SKO[^1] |
-| 2026-01-31 | 6 | 1 | 0 | 25 | 500 | OSC[^2]  Left<br>=> Spermatic Cord | NRM[^4] |
+| 2026-01-31 | 6 | 1 | 0 | 25 | 500 | OSC[^2] L[^L]<br>=> SPC[^5] | NRM[^4] |
 
 
 
@@ -24,20 +24,20 @@
 | 2026-02-02 | 1 | 0 | 0 | 0 | 0 |  |  |
 | 2026-02-03 | 2 | 1 | 0 | 50 | 500 | OSC[^2]  Right<br>=> CAV[^3] | Obvious<br>Spillover |
 | 2026-02-04 | 3 | 1 | 0 | 50 | 500 | OSC[^2]  Medium<br>=> CAV[^3] | Obvious<br>Spillover |
-| 2026-02-05 | 4 | 2 | 0 | 50 | 500 | Periumbilical Left<br>=> Fattiness | NRM[^4] |
+| 2026-02-05 | 4 | 2 | 0 | 50 | 500 | Periumbilical L[^L]<br>=> Fattiness | NRM[^4] |
 | 2026-02-06 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-02-07 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-02-08 | 7 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-02-09 | 1 | 1 | 0 | 75 | 500 | Periumbilical Right<br>=> Fattiness | Mild<br>Spillover |
 | 2026-02-10 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-02-11 | 3 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-02-12 | 4 | 0 | 2.5 | 75 | 500 | Periumbilical Bottom Left<br>=> Fattiness | NRM[^4] |
+| 2026-02-12 | 4 | 0 | 2.5 | 75 | 500 | Periumbilical Bottom L[^L]<br>=> Fattiness | NRM[^4] |
 | 2026-02-13 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-02-14 | 6 | 1 | 2.5 | 75 | 500 | Periumbilical Bottom Right<br>=> Fattiness | NRM[^4] |
 | 2026-02-15 | 7 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-02-16 | 1 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-02-17 | 2 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-02-18 | 3 | 0 | 2.5 | 100 | 500 | Periumbilical Top Left<br>=> Fattiness<br>Massage 5 Minutes | NRM[^4] |
+| 2026-02-18 | 3 | 0 | 2.5 | 100 | 500 | Periumbilical Top L[^L]<br>=> Fattiness<br>Massage 5 Minutes | NRM[^4] |
 | 2026-02-19 | 4 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-02-20 | 5 | 0 | 2.5 | 0 | 0 |  | Orally |
 | 2026-02-21 | 6 | 1 | 0 | 0 | 0 |  | Orally |
@@ -57,7 +57,7 @@
 
 | Date | Week | ANA | LET | TP | hcG | Inject | Effect |
 |:----------:|:---:|:---:|:---:|:---:|:----:|:----------:|:----:|
-| 2026-03-01 | 7 | 1 | 0 | 100 | 500 | Periumbilical Bottom Left<br>=> Fattiness<br>Massage 3 Minutes | NRM[^4] |
+| 2026-03-01 | 7 | 1 | 0 | 100 | 500 | Periumbilical Bottom L[^L]<br>=> Fattiness<br>Massage 3 Minutes | NRM[^4] |
 | 2026-03-02 | 1 | 0 | 2.5 | 0 | 0 |  | Orally |
 | 2026-03-03 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-04 | 3 | 1 | 0 | 0 | 0 |  | Orally |
@@ -65,28 +65,28 @@
 | 2026-03-06 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-07 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-08 | 7 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-03-09 | 1 | 0 | 2.5 | 100 | 500 | Periumbilical Top Left<br>=> Fattiness<br>Massage 1 Minutes | NRM[^4] |
+| 2026-03-09 | 1 | 0 | 2.5 | 100 | 500 | Periumbilical Top L[^L]<br>=> Fattiness<br>Massage 1 Minutes | NRM[^4] |
 | 2026-03-10 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-11 | 3 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-12 | 4 | 0 | 2.5 | 100 | 500 | Mons Pubis Bottom<br>=> CAV[^3]<br>Massage 3 Minutes | NRM[^4] |
 | 2026-03-13 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-14 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-15 | 7 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-03-16 | 1 | 0 | 2.5 | 100 | 500 | Mons Pubis Left<br>=> CAV[^3]<br>Massage 3 Minutes | NRM[^4] |
+| 2026-03-16 | 1 | 0 | 2.5 | 100 | 500 | Mons Pubis L[^L]<br>=> CAV[^3]<br>Massage 3 Minutes | NRM[^4] |
 | 2026-03-17 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-18 | 3 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-19 | 4 | 0 | 2.5 | 75 | 500 | Mons Pubis Right<br>=> CAV[^3]<br>Massage 3 Minutes | NRM[^4] |
 | 2026-03-20 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-21 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-22 | 7 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-03-23 | 1 | 0 | 2.5 | 100 | 500 | Mons Pubis Left<br>=> CAV[^3]<br>Massage 3 Minutes | NRM[^4] |
+| 2026-03-23 | 1 | 0 | 2.5 | 100 | 500 | Mons Pubis L[^L]<br>=> CAV[^3]<br>Massage 3 Minutes | NRM[^4] |
 | 2026-03-24 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-25 | 3 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-26 | 4 | 0 | 2.5 | 100 | 500 | Mons Pubis Right<br>=> Subcutaneous<br>Massage 3 Minutes | NRM[^4] |
 | 2026-03-27 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-28 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-03-29 | 7 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-03-30 | 1 | 0 | 2.5 | 100 | 500 | Periumbilical Left<br>=> Fattiness<br>Massage 3 Minutes | NRM[^4] |
+| 2026-03-30 | 1 | 0 | 2.5 | 100 | 500 | Periumbilical L[^L]<br>=> Fattiness<br>Massage 3 Minutes | NRM[^4] |
 | 2026-03-31 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 
 </details>
@@ -112,14 +112,14 @@
 | 2026-04-13 | 1 | 0 | 2.5 | 100 | 1000 | OSC[^2]  Right<br>=> CAV[^3]<br>Massage 3 Minutes | Mild<br>Spillover |
 | 2026-04-14 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-15 | 3 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-04-16 | 4 | 0 | 5 | 75 | 1000 | OSC[^2]  Left<br>=> CAV[^3]<br>Massage 1 Minutes | Mild<br>Spillover |
+| 2026-04-16 | 4 | 0 | 5 | 75 | 1000 | OSC[^2]  L[^L]<br>=> CAV[^3]<br>Massage 1 Minutes | Mild<br>Spillover |
 | 2026-04-17 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-18 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-19 | 7 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-20 | 1 | 0 | 2.5 | 100 | 1000 | Periumbilical Top Right<br>=> Fattiness<br>Massage 3 Minutes | NRM[^4] |
 | 2026-04-21 | 2 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-22 | 3 | 1 | 0 | 0 | 0 |  | Orally |
-| 2026-04-23 | 4 | 0 | 2.5 | 100 | 1000 | Periumbilical Bottom Left<br>=> Fattiness<br>Massage 3 Minutes | NRM[^4] |
+| 2026-04-23 | 4 | 0 | 2.5 | 100 | 1000 | Periumbilical Bottom L[^L]<br>=> Fattiness<br>Massage 3 Minutes | NRM[^4] |
 | 2026-04-24 | 5 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-25 | 6 | 1 | 0 | 0 | 0 |  | Orally |
 | 2026-04-26 | 7 | 1 | 0 | 0 | 0 |  | Orally |
@@ -176,3 +176,9 @@
 - [^2]: OSC: Oschea
 - [^3]: CAV: Cavity
 - [^4]: NRM: Normal
+- [^5]: SPC: Spermatic Cord
+- [^M]: M: Medium
+- [^L]: L: Left
+
+
+
