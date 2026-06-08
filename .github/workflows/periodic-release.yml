@@ -15,7 +15,6 @@ jobs:
     steps:
 
     - name: "[STEP] Run Auto Release via Action"
-      uses: godners/Shared_Actions/periodic-release@main
+      uses: Godners-Code/auto-release-action@main
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        Checkout: true
