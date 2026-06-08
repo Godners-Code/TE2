@@ -1,0 +1,19 @@
+# Dependabot 配置 - 自动更新依赖
+# 适用于：GitHub Actions 和 GitHub Workflow 中的 actions
+
+version: 2
+updates:
+  # GitHub Actions 依赖更新（强烈推荐开启）
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"           
+      time: "00:00"              
+      timezone: "Asia/Shanghai"
+    open-pull-requests-limit: 256
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "BOT"
+      include: "scope"

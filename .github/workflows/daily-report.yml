@@ -1,0 +1,54 @@
+name: "[WORKFLOW] Daily Report Email"
+
+on:
+  schedule:
+    - cron: '5 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  send-report:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 签出仓库
+      uses: actions/checkout@main
+      with:
+        fetch-depth: 0
+
+    - name: 生成提交报告、查找附件
+      id: report_data
+      shell: bash
+      run: |
+        DATETIME=$(date +'%F %T')
+        echo "CURRENT_DATETIME=$DATETIME" >> $GITHUB_ENV
+
+        echo "=== 昨日提交报告 ===" > commit_report.txt
+        echo "生成时间：$DATETIME (UTC)" >> commit_report.txt
+        echo "" >> commit_report.txt
+
+        git log --since="24 hours ago" --name-status \
+            --pretty=format:"Commit: %h - %an, %ar%nMessage: %s%n" \
+            >> commit_report.txt
+        
+        if [ ! -s commit_report.txt ] || [ $(wc -l < commit_report.txt) -eq 3];
+        then
+            echo "昨日无新的提交" >> commit_report.txt
+        fi
+
+        ATTACHMENTS=$(
+            find . -maxdepth 1 \( -name 'Inbound*.md' -o -name 'Outbound*.md' \) | 
+            sed 's|^\./||' | paste -sd "," -)
+        echo "ATTACHMENTS_LIST=$ATTACHMENTS" >> $GITHUB_ENV
+
+    - name: 发送邮件
+      uses: dawidd6/action-send-mail@master
+      with:
+        subject: "${{ github.event.repository.name }} - ${{ env.CURRENT_DATETIME }} - REPORT"
+        to: godners@163.com,mail@tianyue.ren
+        body: file://commit_report.txt
+        attachments: ${{ env.ATTACHMENTS_LIST }}
+        from: Github - Godners <github@godners.com>
+        username: github@godners.com
+        password: ${{ secrets.MAIL_PASSWORD }}
+        server_address: smtphk.qiye.aliyun.com
+        server_port: 465
+

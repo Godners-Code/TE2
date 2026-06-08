@@ -1,0 +1,51 @@
+name: 口服
+description: 记录口服调节
+title: "口服"
+body:
+  - type: checkboxes
+    id: today
+    attributes:
+      label: 今日
+      options:
+        - label: 今日
+          required: true
+          selected: true
+
+  - type: input
+    id: date
+    attributes:
+      label: 日期
+      description: 若今日已勾选，请忽略此项
+      placeholder: 请输入日期 (例如 2026-04-26)
+
+  - type: dropdown
+    id: anastrozole
+    attributes:
+      label: 阿那曲唑
+      options: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+      value: "1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: letrozole
+    attributes:
+      label: 来曲唑
+      options: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+      value: "0"
+    validations:
+      required: true
+
+  - type: input
+    id: effect
+    attributes:
+      label: 效果
+      value: "口服"
+    validations:
+      required: true
+
+  - type: input
+    id: description
+    attributes:
+      label: 说明
+      placeholder: 在此输入补充说明
