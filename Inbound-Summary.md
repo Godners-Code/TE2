@@ -10,7 +10,7 @@
 | [March](Inbound-2026.md#march)   | 31 Days | 31 Days |  0 Days |  9 Days |  22 mg   | 22.5 mg  |  875 mg | 4500 IU  |
 | [April](Inbound-2026.md#april)  | 30 Days | 30 Days |  0 Days |  8 Days |  22 mg   |   25 mg  |  675 mg | 7000 IU  |
 | [May](Inbound-2026.md#may)    | 31 Days | 31 Days |  0 Days |  2 Days |   24 mg  |   25 mg  |  200 mg |  1500 IU |
-| [June](Inbound-2026.md#june) | 30 Days | ~2 Days | ~0 Days | ~0 Days |   ~1 mg  | ~2.5 mg  |   ~0 mg |    ~0 IU |
+| [June](Inbound-2026.md#june) | 30 Days | ~10 Days | ~0 Days | ~0 Days |   ~7 mg  | ~7.5 mg  |   ~0 mg |    ~0 IU |
 
 ## Abbreviation
 
