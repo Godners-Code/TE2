@@ -3,6 +3,8 @@ name: "[WORKFLOW] Deploy Markdown to GitHub Pages"
 on:
   workflow_dispatch:
   push:
+    paths-ignore:
+      - '.github/**'
 
 permissions:
   contents: write
@@ -19,7 +21,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: "[STEP] Checkout Repository via Action"
         uses: actions/checkout@main
