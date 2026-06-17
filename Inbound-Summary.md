@@ -13,7 +13,7 @@
 | September |      |      |      |      |      |      |      |      |
 | August    |      |      |      |      |      |      |      |      |
 | July      |      |      |      |      |      |      |      |      |
-| [June](./Inbound.md#2026---june) | 30 Days | ~17 Days | ~0 Days | ~0 Days |   ~12 mg | ~12.5 mg |   ~0 mg |    ~0 IU |
+| [June](./Inbound.md#2026---june) | 30 Days | ~17 Days | ~0 Days | ~0 Days |   ~12 mg | ~12.5 mg | ~100 mg |    ~0 IU |
 | [May](./Inbound.md#2026---may)    | 31 Days | 31 Days |  0 Days |  2 Days |   24 mg  |   25 mg  |  200 mg |  1500 IU |
 | [April](./Inbound.md#2026---april)  | 30 Days | 30 Days |  0 Days |  8 Days |  22 mg   |   25 mg  |  675 mg | 7000 IU  |
 | [March](./Inbound.md#2026---march)   | 31 Days | 31 Days |  0 Days |  9 Days |  22 mg   | 22.5 mg  |  875 mg | 4500 IU  |
