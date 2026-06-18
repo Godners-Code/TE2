@@ -69,7 +69,7 @@ def main():
                 print(f"[INFO] Processing: {rel_path} -> {os.path.relpath(dest_html, base_dir)}")
                 
                 # 调用 pandoc 渲染
-                subprocess.run(["pandoc", md_path, "-s", "--metadata", "title=Voluptus Research", "-o", dest_html], check=True)
+                subprocess.run(["pandoc", md_path, "-s", "--metadata", "title=T/E2 ADJUST", "-o", dest_html], check=True)
                 
                 # 读取生成的 HTML 并精准替换内部链接
                 with open(dest_html, "r", encoding="utf-8") as f:

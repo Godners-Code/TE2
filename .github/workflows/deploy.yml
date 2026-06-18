@@ -1,4 +1,4 @@
-name: "[WORKFLOW] Deploy Markdown to GitHub Pages"
+name: "[WORKFLOW] Deploy to GitHub Pages"
 
 on:
   workflow_dispatch:
@@ -21,28 +21,22 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: "[STEP] Checkout Repository via Action"
         uses: actions/checkout@main
-
       - name: "[STEP] Rrepare Pandoc via Commands"
         run: sudo apt-get install -y pandoc
-
       - name: "[STEP] Prepare Python via Action"
-        uses: actions/setup-python@main
-      
+        uses: actions/setup-python@main      
       - name: "[STEP] Build HTML and Convert Links via Python"
         run: python .github/workflows/deploy.py
-
       - name: "[STEP] Setup Pages via Action"
         uses: actions/configure-pages@main
-
       - name: "[STEP] Upload Artifact via Action"
         uses: actions/upload-pages-artifact@main
         with:
           path: ./_site
-
       - name: "[STEP] Deploy to GitHub Pages"
         id: deployment
         uses: actions/deploy-pages@main

@@ -1,7 +1,7 @@
 # TE/2 ADJUST
 
-## [Inbound](./Inbound.md)
+## [Inbound-Records](./Inbound.md)
 
 ## [Inbound-Summary](./Inbound-Summary.md)
 
-## [Outbound](./Outbound.md)
+## [Outbound-Record](./Outbound.md)

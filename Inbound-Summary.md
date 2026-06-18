@@ -1,28 +1,25 @@
 <!-- markdownlint-disable MD060 -->
-# T/E2 Adjust Inbound - Summary
+# T/E2 Adjust Inbound Summary
 
-> Update: 2026-06-17
+> Update: 2026-06-18
 
-## [Year of 2026](./Inbound.md#year-of-2026)
+- [Inbound Records](./Inbound.md)
+- [Inbound Summary](./Inbound-Summary.md)
+- [Outbound Record](./Outbound.md)
 
-|   Month   |  Total  | Execute |  Skips  | Injects |  ANA[^1] |  LET[^2] |  TP[^3] |  hCG[^4] |
-|:---------:|:-------:|:-------:|:-------:|:-------:|:--------:|:--------:|:-------:|:--------:|
-| December  |      |      |      |      |      |      |      |      |
-| November  |      |      |      |      |      |      |      |      |
-| October   |      |      |      |      |      |      |      |      |
-| September |      |      |      |      |      |      |      |      |
-| August    |      |      |      |      |      |      |      |      |
-| July      |      |      |      |      |      |      |      |      |
-| [June](./Inbound.md#2026---june) | 30 Days | ~17 Days | ~0 Days | ~0 Days |   ~12 mg | ~12.5 mg | ~100 mg |    ~0 IU |
-| [May](./Inbound.md#2026---may)    | 31 Days | 31 Days |  0 Days |  2 Days |   24 mg  |   25 mg  |  200 mg |  1500 IU |
-| [April](./Inbound.md#2026---april)  | 30 Days | 30 Days |  0 Days |  8 Days |  22 mg   |   25 mg  |  675 mg | 7000 IU  |
-| [March](./Inbound.md#2026---march)   | 31 Days | 31 Days |  0 Days |  9 Days |  22 mg   | 22.5 mg  |  875 mg | 4500 IU  |
-| [February](./Inbound.md#2026---february) | 28 Days | 26 Days |  2 Days |  8 Days |  22 mg   | 17.5 mg  |  575 mg | 4000 IU  |
-| [January](./Inbound.md#2026---january)  | 31 Days | 31 Days |  0 Days |  9 Days |  22 mg   | 22.5 mg  |  875 mg | 4500 IU  |
+## Year of 2026
 
-## Abbreviation
-
-[^1]: ANA: Anastrozole  
-[^2]: LET: Letrozole  
-[^3]: TP: Testosterone Propionate  
-[^4]: hCG: Human Chorionic Gonadotropin  
+| 月份 | 天数 | 执行 | 跳过 | 注射 | 阿那曲唑 | 来曲唑 | 丙酸睾酮 | 绒促性素 |
+|:----:|:----:|:----:|:----:|:----:|:--------:|:------:|:--------:|:--------:|
+| 12 | 31天 |      |      |      |      |      |      |      |
+| 11 | 30天 |      |      |      |      |      |      |      |
+| 10 | 31天 |      |      |      |      |      |      |      |
+| 09 | 30天 |      |      |      |      |      |      |      |
+| 08 | 31天 |      |      |      |      |      |      |      |
+| 07 | 31天 |      |      |      |      |      |      |      |
+| 06 | 30天 | ~17天 | ~0天 | ~1天 |   ~12 mg | ~12.5 mg | ~100 mg |    ~0 IU |
+| 05 | 31天 | 31天 |  0天 |  2天 |  24 mg   | 25.0 mg  |  200 mg |  1500 IU |
+| 04 | 30天 | 30天 |  0天 |  8天 |  22 mg   | 25.0 mg  |  675 mg | 7000 IU  |
+| 03 | 31天 | 31天 |  0天 |  9天 |  22 mg   | 22.5 mg  |  875 mg | 4500 IU  |
+| 02 | 28天 | 26天 |  2天 |  8天 |  22 mg   | 17.5 mg  |  575 mg | 4000 IU  |
+| 01 | 31天 | 31天 |  0天 |  9天 |  22 mg   | 22.5 mg  |  875 mg | 4500 IU  |

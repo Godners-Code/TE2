@@ -1,9 +1,13 @@
 <!-- markdownlint-disable MD033 MD060 -->
-# TE/2 Adjust Outbound
+# T/E2 Adjust Outbound
 
-> Update: 2026-06-17
+> Update: 2026-06-18
 
-| Date | PGN[^1]<br>ng/mL | T[^2]<br>ng/dL | PRL[^3]<br>ng/mL | E2[^4]<br>pg/mL | COR[^5]<br>ug/dL | T/E2[^6]<br>Ratio |
+- [Inbound Records](./Inbound.md)
+- [Inbound Summary](./Inbound-Summary.md)
+- [Outbound Record](./Outbound.md)
+
+| Date | 孕酮<br>ng/mL | 总睾酮<br>ng/dL | 泌乳素<br>ng/mL | 雌二醇<br>pg/mL | 皮质酮<br>ug/dL | T/E2<br>Ratio |
 |:----------:|:----:|:------:|:----:|:-----:|:-----:|:------:|
 | 2026-07-12 |      |        |      |       |       |        |
 | 2026-06-07 | 0.44 | **715.00** | 6.52 | 12.40 | 13.10 | **376.60** |
@@ -15,12 +19,3 @@
 | 2025-05-18 | 0.75 | **954.57** | 2.87 | **41.30** | 10.58 |  **23.11** |
 | 2025-03-23 | 0.59 | 363.16 | 4.53 | 32.00 | 13.13 |  11.35 |
 | 2024-03-24 | 0.65 | 422.90 | 7.51 | 18.48 | 10.95 |  **22.88** |
-
-## Abbreviation
-
-[^1]: PGN: Progesterone  
-[^2]: T: Testosterone  
-[^3]: PRL: Prolactin  
-[^4]: E2: Estradiol  
-[^5]: COR: Cortisol  
-[^6]: T/E2: Testosterone-to-Estradiol Ratio  
