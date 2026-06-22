@@ -25,8 +25,8 @@ jobs:
     steps:
       - name: "[STEP] Checkout Repository via Action"
         uses: actions/checkout@main
-      - name: "[STEP] Rrepare Pandoc via Commands"
-        run: sudo apt-get install -y pandoc
+      - name: "[STEP] Prepare Pandoc via Action"
+        uses: pandoc/actions/setup@main
       - name: "[STEP] Prepare Python via Action"
         uses: actions/setup-python@main      
       - name: "[STEP] Build HTML and Convert Links via Python"

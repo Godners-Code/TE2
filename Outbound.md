@@ -3,9 +3,7 @@
 
 > Update: 2026-06-18
 
-- [Inbound Records](./Inbound.md)
-- [Inbound Summary](./Inbound-Summary.md)
-- [Outbound Record](./Outbound.md)
+- | [Home Page](./README.md) | [Inbound Records](./Inbound.md) | [Inbound Summary](./Inbound-Summary.md) | [Outbound Record](./Outbound.md) |
 
 | Date | 孕酮<br>ng/mL | 总睾酮<br>ng/dL | 泌乳素<br>ng/mL | 雌二醇<br>pg/mL | 皮质酮<br>ug/dL | T/E2<br>Ratio |
 |:----------:|:----:|:------:|:----:|:-----:|:-----:|:------:|
