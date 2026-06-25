@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD060 -->
 # T/E2 Adjust Inbound Summary
 
-> Update: 2026-06-18
+> Update: 2026-06-25
 
 - | [Home Page](./README.md) | [Inbound Records](./Inbound.md) | [Inbound Summary](./Inbound-Summary.md) | [Outbound Record](./Outbound.md) |
 
@@ -17,7 +17,7 @@
 |  09  |  30 |     |    |    |     |       |      |       |
 |  08  |  31 |     |    |    |     |       |      |       |
 |  07  |  31 |     |    |    |     |       |      |       |
-|  06  |  30 | *22*| *0*| *2*| *15*| *17.5*| *225*|    *0*|
+|  06  |  30 | *23*| *0*| *2*| *17*| *20.0*| *225*|    *0*|
 |  05  |  31 |  31 |  0 |  2 |  24 |  25.0 |  200 |  1500 |
 |  04  |  30 |  30 |  0 |  8 |  22 |  25.0 |  675 |  7000 |
 |  03  |  31 |  31 |  0 |  9 |  22 |  22.5 |  875 |  4500 |
