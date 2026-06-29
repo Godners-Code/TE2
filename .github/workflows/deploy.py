@@ -44,6 +44,15 @@ def main():
         shutil.copytree(images_src, os.path.join(site_dir, "Images"), dirs_exist_ok=True)
         print("[INFO] Images copied successfully.")
 
+    # 2.5 复制 robots.txt 文件
+    robots_src = os.path.join(base_dir, ".github/workflows/robots.txt")
+    robots_dst = os.path.join(site_dir, "robots.txt")
+    if os.path.exists(robots_src):
+        shutil.copy(robots_src, robots_dst)
+        print(f"[INFO] Robots.txt copied: {robots_src} -> {robots_dst}")
+    else:
+        print(f"[WARNING] Robots.txt not found at {robots_src}")
+
     # 3. 遍历并渲染所有 .md 文件
     print("[INFO] START CONVERSION")
     for root, dirs, files in os.walk(base_dir):

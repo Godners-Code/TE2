@@ -1,0 +1,35 @@
+# archive.org
+User-agent: ia_archiver
+User-agent: archive.org_bot
+Allow: /
+
+# Grok / xAI
+User-agent: GrokBot
+User-agent: Grok
+User-agent: xAI-Grok
+User-agent: Grok-DeepSearch
+Allow: /
+
+# OpenAI / ChatGPT
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+Allow: /
+
+# Copilot / Bing
+User-agent: Bingbot
+Allow: /
+
+# Google Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Anthropic Claude
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: *
+Disallow: /
