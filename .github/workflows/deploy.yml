@@ -1,0 +1,31 @@
+name: "[WORKFLOW] Deploy to GitHub Pages"
+
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - '.github/**'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: "[STEP] Checkout Repository via Action"
+        uses: actions/checkout@main
+      - name: "[STEP] Markdown to GitHub Pages Deploy"
+        uses: Godners-Code/deploy-markdown-pages@main
+        with:
+          page-title: "T/E2 ADJUST"
+          
