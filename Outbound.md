@@ -1,14 +1,15 @@
 <!-- markdownlint-disable MD033 MD060 -->
 # T/E2 Adjust Outbound
 
-> Update: 2026-07-12
+> Update: 2026-08-16
 
-- | [Home Page](./README.md) | [Inbound Records](./Inbound.md) | [Inbound Summary](./Inbound-Summary.md) | [Outbound Record](./Outbound.md) |
+- | [Home Page](./README.md) | [Inbound Records 2026](./Inbound-2026.md) | [Inbound Summary](./Inbound-Summary.md) | [Outbound Records](./Outbound.md) |
 
 | Date | 孕酮 | 总睾酮 | 泌乳素 | 雌二醇 | 皮质酮 | T/E2 |
 |:----------:|:----:|:------:|:----:|:-----:|:-----:|:------:|
 |**Unit**|**ng/mL**|**ng/dL**|**ng/mL**|**pg/dL**|**ug/dL**|**Ratio**|
-| 2026-08-16 |      |        |      |       |       |        |
+| 2026-09-20 |      |        |      |       |       |        |
+| 2026-08-16 | 0.68 | 456.00 | 7.36 | 05.00 | 10.20 |**90.60**|
 | 2026-07-12 | 0.60 |**894.00**| 5.85 | 04.90 | 09.82 |**182.5**|
 | 2026-06-07 | 0.44 |**715.00**| 6.52 | 12.40 | 13.10 |**57.66**|
 | 2026-03-29 |**1.95**| 519.88 | 6.84 | 24.52 | 09.62 |**21.20**|
