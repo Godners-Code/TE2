@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD060 -->
 # T/E2 Adjust Inbound Summary
 
-> Update: 2026-09-03
+> Update: 2026-09-08
 
 - | [Home Page](./README.md) | [Inbound Records 2026](./Inbound-2026.md) | [Inbound Summary](./Inbound-Summary.md) | [Outbound Records](./Outbound.md) |
 
