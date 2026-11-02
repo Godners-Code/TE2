@@ -1,0 +1,86 @@
+# ============================================================
+# TE2 入站图表流水线配置
+# 所有可调参数均在此维护；命令行只保留 --config
+# ============================================================
+
+[app]
+title              = "T/E2 ADJUST Inbound Deduce"
+x_label            = "Date (Daily Sampling)"
+ylabel_left        = "Blood Concentration (ng/mL)"
+ylabel_right       = "Volatility on Last 20 Days (Standard Deviation)"
+label_anastrozole  = "Anastrozole"
+label_letrozole    = "Letrozole"
+
+[site]
+base           = "https://te2.tianyue.ren/"
+cache_dir_name = "te2-site"
+user_agent     = "Mozilla/5.0"
+proxy          = "http://192.168.109.5:8080" # 代理地址（如 "http://192.168.109.5:8080"）；留空表示不使用代理
+
+[run]
+end    = "auto" # 窗口结束日：auto = 最后记录给药日；也可填 YYYY-MM-DD
+period = "half" # 统计周期：monthly=30 / quarter=90 / half=180 / year=360 / 整数天数
+window = 20     # 波动率滚动窗口天数
+
+[output]
+dir  = "." # 输出目录；相对或绝对路径
+path = ""  # 输出文件路径；留空使用默认文件名（Inbound-<结束日期>-<天数>.<默认扩展名>）
+
+[render]
+sample_hour     = 8       # 给药 / 采样时钟（小时）
+sample_step_h   = 24.0    # 日采样间隔
+sub_per_day     = 14      # 平滑曲线相对真实采样的加密倍率
+n_intervals     = 6       # 两个 y 轴的等分间隔数
+conc_decimals   = 4       # 浓度规范化保留的小数位
+dose_lookback_h = 960     # 剂量回溯窗口（≈20 个半衰期，40 天）
+
+[colors]
+ana_line        = "#1a73e8"
+let_line        = "#12b76a"
+ana_bar         = "#a9cbe8"
+let_bar         = "#a6d9b8"
+grid            = "#b0bac4"
+grid_lw         = 0.9
+axis_text_left  = "#1a202c"
+axis_text_right = "#4a5568"
+spine           = "#a0aec0"
+
+[fonts]
+# 按顺序回退，使用第一个可用的等宽字体
+monospace = ["Consolas", "Courier New", "DejaVu Sans Mono", "Liberation Mono"]
+
+[image]
+supported_exts = [".png", ".jpg", ".jpeg", ".bmp", ".webp"]
+default_ext    = ".png"
+
+[period]
+monthly         = 30
+quarter         = 90
+half            = 180
+year            = 360
+max_days        = 366
+min_window_days = 2
+
+# ------------------------------------------------------------
+# PK 参数说明
+#   - t_half_h、ka：必需
+#   - V_per_F：可选，默认 0
+#       * V_per_F > 0：直接作为表观分布容积（L）使用
+#       * V_per_F = 0（或省略）：表示用 calib_trough / calib_dose / calib_tau
+#         反算 V_per_F，此时这三项必须提供
+# ------------------------------------------------------------
+
+[pk.anastrozole]
+t_half_h     = 50.0
+ka           = 2.5
+# 采用"谷值反算"方式：V_per_F = 0 且提供 calib_* 三项
+V_per_F      = 0.0
+calib_trough = 25.7    # 说明书稳态谷值 (ng/mL)
+calib_dose   = 1.0     # 标定时每日剂量 (mg)
+calib_tau    = 24.0    # 给药间隔 (h)
+
+[pk.letrozole]
+t_half_h = 48.0
+ka       = 2.0
+# 直接给定 V/F（1.9 L/kg × 70 kg），因此不需要 calib_* 标定参数
+V_per_F  = 133.0

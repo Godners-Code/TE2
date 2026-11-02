@@ -14,3 +14,5 @@ configs:
 ## [Inbound Summary](./Inbound-Summary.md)
 
 ## [Outbound Record](./Outbound.md)
+
+## [Inbound Charts Script](./te2_inbound_charts.md)
