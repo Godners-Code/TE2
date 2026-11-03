@@ -3,7 +3,7 @@
 
 **T/E2 ADJUST** 的一站式入站处理脚本。脚本从 TE2 站点抓取每日给药记录，运行一室一级吸收 PK 模型，并绘制最终的双轴图表。
 
-**所有可调参数均在 `te2_inbound_charts.toml` 中配置**，命令行可用 `--config` 显式指定配置文件路径）。
+**所有可调参数均在 `inbound_charts.toml` 中配置**，命令行可用 `--config` 显式指定配置文件路径）。
 
 ---
 
@@ -37,14 +37,14 @@ USAGE.md
 若从其他目录运行，请使用 `--config` 显式指向 TOML 文件的路径：
 
 ```bash
-python /path/to/te2_inbound_charts.py --config /path/to/custom_configure.toml
+python /path/to/inbound_charts.py --config /path/to/custom_configure.toml
 ```
 
 ## 3. 快速开始
 
 ```bash
 # 默认运行：最后记录日、180 天窗口、输出到当前目录，使用脚本同目录的 TOML 配置文件
-python te2_inbound_charts.py
+python inbound_charts.py
 ```
 
 默认输出：
@@ -216,14 +216,14 @@ proxy 行为：
 ## 6. 使用示例
 
 ```bash
-# 默认运行（读取同目录的 te2_inbound_charts.toml）
-python te2_inbound_charts.py
+# 默认运行（读取同目录的 inbound_charts.toml）
+python inbound_charts.py
 
 # 指定其它配置文件
-python te2_inbound_charts.py --config /data/te2/te2_inbound_charts.toml
+python inbound_charts.py --config /data/te2/inbound_charts.toml
 
 # 从其他目录运行脚本
-python /path/to/te2_inbound_charts.py --config /path/to/te2_inbound_charts.toml
+python /path/to/inbound_charts.py --config /path/to/inbound_charts.toml
 ```
 
 **想改变运行行为，请修改 TOML 配置后重新运行。** 例如：
@@ -317,3 +317,8 @@ DejaVu Sans Mono 随 matplotlib 一起安装，因此即使系统中没有前几
 | [output].path 的扩展名 '...' 不受支持 | 改用 image.supported_exts 中的扩展名。 |
 | 图表正常但中文显示为方块 | 图表按设计使用等宽字体，属预期行为。 |
 | 写输出文件时提示 Permission denied | 目标目录不可写；调整 [output].dir / [output].path。 |
+
+
+
+
+

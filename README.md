@@ -15,4 +15,6 @@ configs:
 
 ## [Outbound Record](./Outbound.md)
 
-## [Inbound Charts Script](./te2_inbound_charts.md)
+## [Inbound Charts Script](./function/inbound_charts/README.md)
+
+- [Open on GitHub](https://github.com/Godners-Code/TE2)
